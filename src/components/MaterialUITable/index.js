@@ -14,7 +14,6 @@ const initialState = {
 };
 export default function MaterialTable() {
   const [state, setState] = useState(initialState);
-  console.log("state", state);
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
